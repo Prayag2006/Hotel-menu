@@ -1,4 +1,5 @@
 alert("First open a console log in your tab.")
+//Hotel menu
 console.log("======================MENU=========================");
 console.log(" No.          Food           Price");
 console.log("1            PIZZA            850");
@@ -10,7 +11,7 @@ console.log("6         COLD COFFEE         200");
 
 let totalBill = 0;
 let option;
-
+//Do while loop started
 do {
   let choice = Number(prompt("Enter your choice: "));
   let quantity, price = 0;
@@ -57,7 +58,7 @@ do {
   option = Number(prompt("Do you want to order something else? Enter 1 for Yes, 0 for No: "));
 
 } while (option === 1);
-
+//Do while loop end
 console.log("============ THANK YOU FOR YOUR ORDER ============");
 console.log("================== VISIT AGAIN ====================");
 console.log(`YOUR TOTAL BILL : ₹${totalBill}`);
