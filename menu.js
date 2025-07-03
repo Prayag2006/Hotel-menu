@@ -1,3 +1,4 @@
+alert("First open a console log in your tab.")
 console.log("======================MENU=========================");
 console.log(" No.          Food           Price");
 console.log("1            PIZZA            850");
